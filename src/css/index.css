@@ -1,0 +1,179 @@
+/* Normalisation de ma page (Reset CSS) */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+
+/* Header */
+
+header {
+    background-color: #333;
+}
+
+.active {
+    background-color: #444;
+}
+
+h1 {
+    display: inline-block;
+    color: white;
+    padding: 1.23rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    float: right;
+    padding-top: 0.9rem;
+    padding-bottom: 0.8rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 1.95rem 0.8rem;
+}
+
+
+/* Section 1 titre + background image */
+
+.section1 {
+    background-image: url(/src/img/frame.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.section1 div {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
+}
+
+.section1 div h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.section1 div hr {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+}
+
+.section1 div p {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section1 div a {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.section1 div a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Section 2 et alignement de 2 div */
+
+.section2 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.section2 div {
+    display: table-cell;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+
+/* insersion div img */
+
+.img {
+    background-image: url(/src/img/person-1.jpg);
+    background-position: center;
+    padding: 20rem;
+}
+
+
+/* section3 */
+
+.section3 {
+    text-align: center;
+    margin: 10rem;
+}
+
+.section3 h3 {
+    margin-bottom: 2rem;
+}
+
+.section3 p {
+    line-height: 2rem;
+    margin-bottom: 4rem;
+}
+
+.section3 a {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.section3 a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1.23rem;
+    bottom: auto;
+}
+
+
+/* Page 2 */
+
+.p2 {
+    padding: 30rem;
+}
+
+.p2 div {
+    display: table-cell;
+    vertical-align: top;
+}
