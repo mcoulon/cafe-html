@@ -1,0 +1,50 @@
+@media screen and (min-width: 360px) and (max-width: 620px) {
+    header {
+        text-align: center;
+    }
+    header h1 {
+        text-align: center;
+        float: none;
+    }
+    header nav {
+        float: none;
+        display: inline;
+        text-align: center;
+    }
+    .active {
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        margin: auto;
+    }
+    .section1 {
+        padding: 0 1rem;
+    }
+    .section2 {
+        padding: 0;
+    }
+    .section2 div {
+        display: block;
+        padding: 1rem 0;
+    }
+}
+
+
+/* @media screen and(min-width: 720px)and(max-width: 1023px) {}
+
+@media screen and(max-height: 1024px)and(max-width: 1439px) {}
+
+
+/* mise en forme particulière */
+
+@media print {
+    /* met en forme pour l'impression */
+}
+
+@media speech {}
+
+
+/* mise en forme speciale pour les personne malentendentes 
+}
+
+@media(orientation:landscape) {}
+
+@media(orientation:portrait) {}/*
